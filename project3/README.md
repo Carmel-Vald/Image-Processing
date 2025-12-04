@@ -78,7 +78,7 @@ Visualizations include distorted feathers image, synthetic image, and natural im
 #### 2.b Optimization: Learning λ
 - Formulate the L2 restoration objective:  
 
- <img src="https://render.githubusercontent.com/render/math?math=\min_X\|Y-H^T X H\|_2^2+\lambda\|DX\|_2^2">
+![Equation 1](equations/equation1.png)
 
 
   where **D** is the Laplacian operation matrix.  
@@ -90,7 +90,7 @@ Visualizations include distorted feathers image, synthetic image, and natural im
 #### 2.c Restoration with Optimal λ
 - Use closed-form solution:  
 
-<img src="https://render.githubusercontent.com/render/math?math=\hat{X}_{cs}=(\lambda D^T D+I)^{-1}(H\otimes H)Y_{cs}">
+![Equation 2](equations/equation2.png)
 
 
 - Display:
