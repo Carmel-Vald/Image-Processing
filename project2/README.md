@@ -66,3 +66,7 @@ This part integrates all earlier stages into a full panorama pipeline.
 - **OpenCV**
 - **SciPy**
 - **Jupyter Notebook**
+
+- ##  Quick Access
+
+[ **Open code.ipynb**](code.ipynb)
