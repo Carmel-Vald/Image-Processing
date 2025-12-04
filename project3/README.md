@@ -120,3 +120,6 @@ Visualizations include distorted feathers image, synthetic image, and natural im
 
    ```bash
    pip install numpy matplotlib opencv-python scipy
+
+   ### Quick Access
+[ Open code.ipynb](code.ipynb)
