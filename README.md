@@ -85,6 +85,9 @@ All can be run either in:
 - **Jupyter Notebook**
 - **Any Python IDE** (PyCharm / VSCode)
 
+### Quick Access
+[ Open code.ipynb](code.ipynb)
+
 Environment requirements:
 ```bash
 pip install numpy opencv-python matplotlib
