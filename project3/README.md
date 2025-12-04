@@ -78,9 +78,8 @@ Visualizations include distorted feathers image, synthetic image, and natural im
 #### 2.b Optimization: Learning λ
 - Formulate the L2 restoration objective:  
 
-  \[
-  \min_X \|Y - H^T X H\|_2^2 + \lambda \|D X\|_2^2
-  \]
+ <img src="https://render.githubusercontent.com/render/math?math=\min_X\|Y-H^T X H\|_2^2+\lambda\|DX\|_2^2">
+
 
   where **D** is the Laplacian operation matrix.  
 - Convert 2D convolution to Toeplitz operation using the provided `to_operation` function.  
@@ -91,9 +90,8 @@ Visualizations include distorted feathers image, synthetic image, and natural im
 #### 2.c Restoration with Optimal λ
 - Use closed-form solution:  
 
-  \[
-  \hat{X}_{cs} = (\lambda D^T D + I)^{-1} (H \otimes H) Y_{cs}
-  \]
+<img src="https://render.githubusercontent.com/render/math?math=\hat{X}_{cs}=(\lambda D^T D+I)^{-1}(H\otimes H)Y_{cs}">
+
 
 - Display:
   - Original image  
